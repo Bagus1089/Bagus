@@ -95,9 +95,7 @@ exports.genderReg = (a) =>{
 exports.UmurXReg = () =>{
 	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
 	}
-exports.firstChat = (a, b, c) =>{
-	return`Selamat ${a} ${b} 🤗, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
-	}
+exports.firstChat = ()
 exports.StartAbsen = () =>{
 	return`Mulai Absen`
 	}
@@ -715,14 +713,14 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
+	return`Hai ${pushname} 👋 selamat ${salam} , 
 saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Bot :*
+*📚 List-Menu BagusXd :*
 
 ╭─❒ 「 Bot Info 」 
 │○ !owner
@@ -807,8 +805,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !menfess
 │○ !anonymous 
 │○ !start
-│○ !skip [daerah]
-╰❒ !stop [surah|ayat]
+│○ !skip
+╰❒ !stop
 
 
 ╭─❒ 「 Database 」 
@@ -1629,17 +1627,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ !logoaccording text|text2|thumb
 ╰❒ !avataroverwatch text|text2|thumb
 
-
-╭─❒ 「 Islamic Menu 」
-│○ !asmaulhusna
-│○ !kisahnabi [nabi]
-│○ !jadwalshalat [daerah]
-│○ !randomquran
-│○ !randomquran2
-│○ !listsurah
-│○ !tafsirsurah [surah]
-╰❒ !alquranaudio [surah|ayat]
-
 ╭─❒ 「 Sound Menu 」
 │○ !sound1
 │○ !sound2
@@ -1715,14 +1702,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 TqTo 」 
 │○ My God
 │○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
-│○ Penyedia Module
+│○ Bagus (Me)
 ╰❒ And All Support
     `
 }
@@ -2437,14 +2417,7 @@ exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
 │○ My God
 │○ My Parents
-│○ Fatih A.
-│○ Ferdi
-│○ DikaArdnt
-│○ Mhankbarbar
-│○ Nurutomo
-│○ Rashid
-│○ ZeeoneOfc
-│○ Penyedia Module
+│○ Bagus (Me)
 ╰❒ And All Support
 `
 }
