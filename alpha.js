@@ -182,7 +182,7 @@ async function startalpha() {
             level: 'fatal'
         }),
         printQRInTerminal: true,
-        browser: ['Bot By ZeeoneOfc', 'safari', '1.0.0'],
+        browser: ['Bagus', 'safari', '1.0.0'],
         auth: state,
         version: getVersionWaweb() || [2, 2204, 13]
     })
